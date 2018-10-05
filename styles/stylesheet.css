@@ -79,12 +79,14 @@ body{
   z-index: 100;
   display:block;
   overflow: hidden;
+  line-height: 2;
   clear:both;
 }
 
 .resume-page p{
   color:#FFF;
   font-size:1.1em;
+  line-height: 2;
   margin-top:1em;
 }
 
@@ -111,6 +113,7 @@ body{
 .notable-page p{
   color:#000;
   font-size:1.1em;
+  line-height: 2;
   margin-top:1em;
 }
 
@@ -255,9 +258,7 @@ ul.left-information li ul.content-contact li:nth-child(1) {
 .resume-buttons{
   overflow:hidden;
   clear:both;
-  margin-left:5%;
-  align-content: center;
-
+  display:inline-block;
 }
 
 .project-buttons{
@@ -267,10 +268,9 @@ ul.left-information li ul.content-contact li:nth-child(1) {
 
 }
 
-
 .inline-block {
   display: inline-block;
-  line-height: 100%;
+  line-height: normal;
   vertical-align: middle;
   text-align: center;
   height: 7em;
@@ -302,15 +302,14 @@ ul.left-information li ul.content-contact li:nth-child(1) {
   vertical-align: middle;
   color: #FFF !important;
   font-size: 1.1em;
-  line-height: 1.1em;
+  line-height: 2em;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
 .resume-page .inline-block a{
-  vertical-align: middle;
+  line-height: normal;
   color: #FFF !important;
-  font-size: 1.1em;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
