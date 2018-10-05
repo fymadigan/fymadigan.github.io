@@ -130,21 +130,22 @@ body{
   clear:both;
 }
 
-ul.left-information .right-headshot{
-  width:20%;
+.contact-box .right-headshot{
   padding-right: 0;
   padding-top:0;
   float:right;
   position:relative;
-  display: inline;
+  display: inline-block;
   margin-right:10%;
   margin-top:0;
 }
 
 .right-headshot img{
-  margin-top:-95%;
+  height: 20vh;
+  width: 100%;
   border-radius: 8px;
 }
+
 
 
 ul.left-information li {
