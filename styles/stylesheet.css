@@ -123,26 +123,24 @@ body{
   position:static;
   align-items: center;
   background-color:rgb(51,51,51,.9);
-  display:block;
+  display:grid;
   z-index: 100;
   padding-bottom:1em;
   overflow: hidden;
   clear:both;
 }
 
-.contact-box .right-headshot{
+.right-headshot{
   padding-right: 0;
   padding-top:0;
-  float:right;
-  position:relative;
-  display: inline-block;
-  margin-right:10%;
-  margin-top:0;
+  float:right; 
+  display: initial;
+  margin-top:-20%;
 }
 
+
 .right-headshot img{
-  height: 20vh;
-  width: 100%;
+  width: 40%;
   border-radius: 8px;
 }
 
