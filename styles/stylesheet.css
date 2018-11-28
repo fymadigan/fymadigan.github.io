@@ -207,7 +207,7 @@ ul.left-information li ul.content-contact li:nth-child(1) {
 }
 
 .popup {
-  margin: 5% auto auto 35%;
+  margin: 5% auto 3% auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
