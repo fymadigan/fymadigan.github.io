@@ -199,6 +199,7 @@ ul.left-information li ul.content-contact li:nth-child(1) {
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+  overflow-y: scroll;
 }
 
 .overlay:target {
@@ -218,7 +219,7 @@ ul.left-information li ul.content-contact li:nth-child(1) {
 }
 
 .popup img{
-    width:80%;
+
     align-content: center;
 }
 
@@ -259,6 +260,7 @@ ul.left-information li ul.content-contact li:nth-child(1) {
   overflow:hidden;
   clear:both;
   display:inline-block;
+  width: 90%;
 }
 
 .project-buttons{
