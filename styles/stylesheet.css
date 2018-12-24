@@ -98,11 +98,8 @@ body{
   font-size: 2em;
 }
 .notable-page{
-  position: static;
-  background-color:#FFF;
-  display:block;
+  background-color:inherit;
   z-index: 100;
-  display:block;
   overflow: hidden;
   clear:both;
 }
