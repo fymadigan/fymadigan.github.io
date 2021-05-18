@@ -16,20 +16,20 @@
             "text":"What is Sodium nitrate?",
             "answer":"2",
             "answers":[
-              "Iron",
-              "Helium",
-              "Hydrogen",
-              "Potassium"
+              "NaNO"
+              "NaN3",
+              "NaN",
+              "NaNO3"
             ]
           },
           {
             "text":"Which of the following is a noble gas?",
             "answer":"3",
             "answers":[
-              "",
-              "43",
-              "2",
-              "23"
+                "Iron",
+                "Helium",
+                "Hydrogen",
+                "Potassium"
             ]
           }
       ]
